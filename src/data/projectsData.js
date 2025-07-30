@@ -1,7 +1,14 @@
+import P1 from "../assets/P1.png";
+import P2 from "../assets/P2.png";
+import P3 from "../assets/P3.png";
+import P4 from "../assets/P4.png";
+import P5 from "../assets/P5.png";
+import P6 from "../assets/P6.png";
+
 const projects = [
   {
     title: "Currency Converter App",
-    image: "/src/assets/P1.png",
+    image: P1,
     desc: "Live currency converter with real-time exchange rates using API integration.",
     tech: ["React", "API", "Tailwind CSS"],
     live: "https://currency-converter-lake-pi.vercel.app/",
@@ -9,7 +16,7 @@ const projects = [
   },
   {
     title: "Weather Forecast App",
-    image: "/src/assets/P2.png",
+    image: P2,
     desc: "Real-time weather updates using OpenWeatherMap API with a responsive UI.",
     tech: ["React", "API", "Tailwind CSS"],
     live: "https://weather-app-sandy-omega-gr6zqvv4lp.vercel.app/",
@@ -17,7 +24,7 @@ const projects = [
   },
   {
     title: "Personal Portfolio",
-    image: "/src/assets/P3.png",
+    image: P3,
     desc: "A clean and responsive personal website to showcase my skills and projects.",
     tech: ["React", "Tailwind CSS"],
     live: "https://portfolio-six-steel-39.vercel.app/",
@@ -25,7 +32,7 @@ const projects = [
   },
   {
     title: "Expense Tracker",
-    image: "/src/assets/P4.png",
+    image: P4,
     desc: "Track income and expenses with context API, dynamic balance, and history.",
     tech: ["React", "useContext", "Tailwind CSS"],
     live: "https://expense-tracker-kappa-indol-48.vercel.app/",
@@ -33,7 +40,7 @@ const projects = [
   },
   {
     title: "Quiz App",
-    image: "/src/assets/P5.png",
+    image: P5,
     desc: "Clean and interactive quiz with scoring system.",
     tech: ["React", "Hooks", "Tailwind CSS"],
     live: "https://quiz-app-rosy-gamma.vercel.app/",
@@ -41,9 +48,9 @@ const projects = [
   },
   {
     title: "Woman’s Villa",
-    image: "/src/assets/P6.png",
+    image: P6,
     desc: "Elegant e-commerce UI for women's fashion built with JavaScript and Bootstrap.",
-    tech: ["JavaScript", "Bootsrap", "UI Design"],
+    tech: ["JavaScript", "Bootstrap", "UI Design"],
     live: "https://pranshuydv.github.io/Woman-s-Villa/",
     code: "https://github.com/Pranshuydv/Woman-s-Villa",
   },
