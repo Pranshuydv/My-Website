@@ -47,12 +47,12 @@ const projects = [
     code: "https://github.com/Pranshuydv/quiz-app",
   },
   {
-    title: "Woman’s Villa",
+    title: "Yummy-Foods",
     image: P6,
-    desc: "Elegant e-commerce UI for women's fashion built with JavaScript and Bootstrap.",
-    tech: ["JavaScript", "Bootstrap", "UI Design"],
-    live: "https://pranshuydv.github.io/Woman-s-Villa/",
-    code: "https://github.com/Pranshuydv/Woman-s-Villa",
+    desc: "Yummy Foods is a modern food ordering web app built with React and Tailwind CSS.",
+    tech: ["React", "Tailwind CSS", "UI Design"],
+    live: "https://yummy-foods-gjfe.vercel.app/",
+    code: "https://github.com/Pranshuydv/Yummy_Foods",
   },
 ];
 
