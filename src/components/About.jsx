@@ -25,7 +25,8 @@ const About = () => {
                     </h2>
                     <p className="text-gray-300 text-lg leading-relaxed">
                         I'm <span className="text-green-400 font-semibold">Pranshu Yadav</span>, a passionate web developer with expertise in building modern web apps using
-                        <span className="text-white font-semibold"> HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, jQuery</span>.
+                        <span className="text-white font-semibold"> HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, jQuery</span> and backend development with
+                        <span className="text-white font-semibold"> Python, Flask, SQL/MySQL</span>.
                         <br /><br />
                         I specialize in creating fast, responsive, and clean UI experiences with a strong focus on performance and user satisfaction.
                     </p>
@@ -36,7 +37,8 @@ const About = () => {
                             {[
                                 "HTML5", "CSS3", "JavaScript",
                                 "React.js", "Tailwind CSS", "Bootstrap",
-                                "jQuery", "Git & GitHub"
+                                "jQuery", "Git & GitHub",
+                                "Python", "Flask", "SQL/MySQL"
                             ].map((skill) => (
                                 <li key={skill} className="before:content-['✔'] before:mr-2 before:text-green-400">
                                     {skill}
@@ -45,6 +47,7 @@ const About = () => {
                         </ul>
                     </div>
                 </div>
+
             </div>
         </section>
     );

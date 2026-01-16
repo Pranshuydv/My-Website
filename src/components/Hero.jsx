@@ -26,8 +26,12 @@ const Hero = () => {
           </h1>
 
           <p className="text-gray-400 text-lg max-w-xl">
-            A passionate frontend developer crafting sleek and responsive websites using HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, and React.js.
+            A passionate full-stack web developer crafting sleek and responsive websites using
+            <span className="text-white font-semibold"> HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React.js </span> 
+             and building robust backend systems with
+            <span className="text-white font-semibold"> Python, Flask, SQL/MySQL</span>.
           </p>
+
 
           <a
             href={resumePDF}

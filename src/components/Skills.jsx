@@ -46,6 +46,22 @@ const skills = [
     icon: "https://cdn-icons-png.flaticon.com/512/1865/1865269.png",
     desc: "Mobile-friendly and fluid layouts.",
   },
+  {
+    name: "Python",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    desc: "High-level programming language for general-purpose development.",
+},
+{
+    name: "Flask",
+    icon: "https://logo.svgcdn.com/logos/flask.svg",
+    desc: "Lightweight Python web framework for building web apps and APIs.",
+},
+{
+    name: "SQL & MySQL",
+    icon: "https://logo.svgcdn.com/logos/mysql.svg",
+    desc: "SQL is the standard language for managing relational databases, and MySQL is a popular open-source database system.",
+},
+
 ];
 
 const Skills = () => {
