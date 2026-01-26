@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../assets/Hero.png";
-import resumePDF from "../assets/Pranshu-Yadav-Resume.pdf";
+import resumePDF from "../assets/Resume_Pranshu_Yadav.pdf";
 
 
 const Hero = () => {
@@ -26,9 +26,12 @@ const Hero = () => {
           </h1>
 
           <p className="text-gray-400 text-lg max-w-xl">
-            A passionate full-stack web developer crafting sleek and responsive websites using
-            <span className="text-white font-semibold"> HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React.js </span> 
-             and building robust backend systems with
+            A motivated <span className="text-white font-semibold">Junior Software Developer</span> with a strong focus on
+            frontend development using
+            <span className="text-white font-semibold">
+              {" "}HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, React.js
+            </span>
+            , along with basic backend experience in
             <span className="text-white font-semibold"> Python, Flask, SQL/MySQL</span>.
           </p>
 

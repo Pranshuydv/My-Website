@@ -23,13 +23,21 @@ const About = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-green-400">
                         About Me
                     </h2>
+
                     <p className="text-gray-300 text-lg leading-relaxed">
-                        I'm <span className="text-green-400 font-semibold">Pranshu Yadav</span>, a passionate web developer with expertise in building modern web apps using
-                        <span className="text-white font-semibold"> HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, jQuery</span> and backend development with
+                        I'm <span className="text-green-400 font-semibold">Pranshu Yadav</span>, a
+                        <span className="text-white font-semibold"> Junior Software Developer</span> with a strong focus on
+                        frontend development. I build modern and responsive web applications using
+                        <span className="text-white font-semibold">
+                            {" "}HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, jQuery
+                        </span>
+                        , along with basic backend experience in
                         <span className="text-white font-semibold"> Python, Flask, SQL/MySQL</span>.
                         <br /><br />
-                        I specialize in creating fast, responsive, and clean UI experiences with a strong focus on performance and user satisfaction.
+                        I enjoy creating clean, user-friendly interfaces and continuously improving
+                        my skills while learning modern development practices.
                     </p>
+
 
                     <div>
                         <h3 className="text-xl font-semibold mb-2 text-white">Skills:</h3>
